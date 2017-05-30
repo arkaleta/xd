@@ -1,0 +1,3 @@
+/home/arturk/CLionProjects/Działania na macierzach/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/arturk/CLionProjects/Działania na macierzach/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/arturk/CLionProjects/Działania na macierzach/cmake-build-debug/CMakeFiles/Dziaania_na_macierzach.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Macierze.dir/main.cpp.o CMakeFiles/Macierze.dir/macierze.cpp.o  -o Macierze 

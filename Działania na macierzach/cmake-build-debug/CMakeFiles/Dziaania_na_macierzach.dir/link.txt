@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDziaania_na_macierzach.a  CMakeFiles/Dziaania_na_macierzach.dir/library.cpp.o
+/usr/bin/ranlib libDziaania_na_macierzach.a

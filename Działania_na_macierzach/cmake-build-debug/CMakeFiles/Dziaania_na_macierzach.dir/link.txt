@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Dziaania_na_macierzach.dir/main.cpp.o CMakeFiles/Dziaania_na_macierzach.dir/Vectors.cpp.o CMakeFiles/Dziaania_na_macierzach.dir/matrices.cpp.o  -o Dziaania_na_macierzach 

@@ -1,0 +1,6 @@
+#ifndef DZIAANIA_NA_MACIERZACH_LIBRARY_H
+#define DZIAANIA_NA_MACIERZACH_LIBRARY_H
+
+void hello();
+
+#endif
