@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/Vectors.cpp
+Vectors.h
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/Vectors.h
+
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/Vectors.h
+iostream
+-
+
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/main.cpp
+iostream
+-
+Vectors.h
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/Vectors.h
+matrices.h
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/matrices.h
+
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/matrices.cpp
+matrices.h
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/matrices.h
+
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/matrices.h
+Vectors.h
+/home/arturk/Dokumenty/CLionProjects/Działania_na_macierzach/Vectors.h
+
