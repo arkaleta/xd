@@ -31,7 +31,7 @@ public:
     bool operator!=(const Matrix &);
     Vector operator[](const int &);
 
-    friend istream &operator>>(istream &, const Matrix &);
+    friend istream &operator>>(istream &, Matrix &);
     friend ostream &operator<<(ostream &, const Matrix &);
 
 

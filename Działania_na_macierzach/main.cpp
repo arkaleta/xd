@@ -60,7 +60,7 @@ int main() {
     int skalar = 2;
     cout << "MACIERZE" << endl;
     cout << "Defaultowa macierz: " << endl;
-    Matrix A(5,5);
+    Matrix A;
     cout << A << endl;
     cout << "Podaj wartosci pierwszej macierzy (2 x 2): ";
     cin >> A;
@@ -107,6 +107,4 @@ int main() {
     B *= skalar;
     cout << "b *= skalar: " << endl << B << endl << endl;
     return 0;
-
-
 }

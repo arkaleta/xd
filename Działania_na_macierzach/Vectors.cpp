@@ -104,7 +104,7 @@ int Vector::operator[](const int &value){
     return coordinates[value - 1];
 }
 
-istream &operator>>(istream &in, const Vector &V1) {
+istream &operator>>(istream &in, Vector &V1) {
     for(int i = 0; i < V1.size; i++){
          in >> V1.coordinates[i];
     }

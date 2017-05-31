@@ -32,7 +32,7 @@ public:
     bool operator!=(const Vector &);
     int operator[](const int &);
 
-    friend istream &operator>>(istream &, const Vector &);
+    friend istream &operator>>(istream &, Vector &);
     friend ostream &operator<<(ostream &, const Vector &);
 };
 

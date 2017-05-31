@@ -9,7 +9,7 @@ Matrix::Matrix(int size, int number) {
     v_number = number;
     vectors = new Vector*[v_number];
     for(int i=0; i < v_number; i++)
-        vectors[i] = new Vector[size];
+        vectors[i] = new Vector(size);
 }
 
 Matrix::Matrix(const Matrix &m1) {
@@ -17,20 +17,21 @@ Matrix::Matrix(const Matrix &m1) {
     v_number = m1.v_number;
     vectors = new Vector*[v_number];
     for(int i=0; i < v_number; i++){
-        vectors[i] = new Vector[v_length];
+        vectors[i] = new Vector(v_length);
         *(vectors[i]) = *(m1.vectors[i]);
     }
 }
 
 Matrix::~Matrix() {
-
+    delete[] vectors;
 }
 
 Matrix &Matrix::operator=(const Matrix &M2){
-    for(int i=0; i < v_number; i++){
+    for(int i=0; i < v_number; i++) {
         *(vectors[i]) = *(M2.vectors[i]);
-        return *this;
     }
+    return *this;
+
 }
 
 Matrix Matrix::operator+(const Matrix &M2){
@@ -108,7 +109,7 @@ Vector Matrix::operator[](const int &value){
     return *(vectors[value]);
 }
 
-istream &operator>>(istream &in, const Matrix &M1){
+istream &operator>>(istream &in, Matrix &M1){
     for(int i=0; i < M1.v_number; i++){
         in >> *(M1.vectors[i]);
     }
